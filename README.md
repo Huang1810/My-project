@@ -9,7 +9,7 @@ This project is a blogging platform designed specifically for authors and reader
 The platform supports:
 - **User authentication** for secure login and registration.
 - **Post management** allowing authors to create, edit, and delete posts.
-- **User interactions** with options to comment and like posts.
+- **User interactions** with options to comment .
 
 [Check out the deployed site here](link_to_deployed_site)  
 [Read the final project blog article here](https://medium.com/@huangtian1810/building-a-blogging-platform-for-novels-and-fanfiction-a-personal-journey-1cc273ae690a)  
