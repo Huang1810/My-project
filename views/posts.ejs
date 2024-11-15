@@ -1,0 +1,7 @@
+<!-- views/posts.ejs -->
+<h2>All Posts</h2>
+<ul>
+  <% data.forEach(function(post) { %>
+    <li><a href="/view/<%= post._id %>"><%= post.title %></a></li>
+  <% }) %>
+</ul>

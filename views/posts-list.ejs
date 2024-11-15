@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('includes/head', { title: "All Posts" }) %>
+  <link rel="stylesheet" href="/styles/posts.css">
+</head>
+
+<body>
+  <%- include('includes/header') %>
+  <main id="all-posts">
+    <h1>All Posts</h1>
+    <% data.forEach(function(post) { %>
+      <article class="post-item">
+        <h2><%= post.title %></h2>
+        <p class="post-item-author">By <%= post.user_email %></p> <!-- If you want to display the email -->
+        <p><%= post.summary %></p>
+        <div class="post-actions">
+          <% if (locals.user_mail === post.user_email) { %>
+            <!-- Add actions for the author, like edit/delete -->
+          <% } %>
+        </div>
+      </article>
+    <% }) %>
+  </main>
+</body>
+
+</html>
