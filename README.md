@@ -8,7 +8,7 @@ This project is a blogging platform designed to allow authors and readers to sha
 
 [Check out the deployed site here](link_to_deployed_site)  
 [Read the final project blog article here](https://medium.com/@huangtian1810/building-a-blogging-platform-for-novels-and-fanfiction-a-personal-journey-1cc273ae690a)  
-[Visit the author's LinkedIn]([link_to_linkedin_profile](https://www.linkedin.com/in/ahmed-hamza-4a0544338/))
+[Visit the author's LinkedIn](https://www.linkedin.com/in/ahmed-hamza-4a0544338/)
 
 ## Installation
 
